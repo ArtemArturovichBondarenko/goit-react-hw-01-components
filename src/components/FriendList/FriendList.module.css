@@ -1,0 +1,39 @@
+.item {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    width: 400px;
+    height: 100px;
+    list-style: none;
+    box-shadow: 0 3px 5px rgb(151, 151, 151);
+}
+
+
+.statusTrue {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    background-color: rgb(32, 158, 32);
+    border-radius: 50%;
+}
+
+.statusFaulse {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgb(255, 81, 81);
+}
+
+.avatar {
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
